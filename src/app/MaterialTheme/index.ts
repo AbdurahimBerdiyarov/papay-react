@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 import { common } from "@mui/material/colors";
-import shadow from "./shadow";
+import shadow from "../MaterialTheme/shadow";
 import typography from "./typography";
 
 /**
