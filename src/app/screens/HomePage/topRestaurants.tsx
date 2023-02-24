@@ -28,7 +28,7 @@ export function TopRestaurants() {
               <Card
                 sx={{
                   minHeight: 430,
-                  width: 325,
+                  minWidth: 325,
                   mr: "35px",
                   cursor: "pointer",
                 }}
