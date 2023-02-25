@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@mui/joy";
 
-import { Box, Stack } from "@mui/material";
+import { Box, Button, Stack } from "@mui/material";
 import { Container } from "@mui/system";
 
 export function BestRestaurants() {
@@ -22,7 +22,7 @@ export function BestRestaurants() {
         src="icons/line_group.svg"
         style={{ position: "absolute", left: "6%", transform: "rotate(0deg)" }}
       />
-      <Container sx={{ mt: "153px" }}>
+      <Container sx={{ paddingTop: "153px" }}>
         <Stack flexDirection={"column"} alignItems="center">
           <Box className="category_title">Zo’r Restaurantlar</Box>
           <Stack sx={{ mt: "43px" }} flexDirection={"row"}>
@@ -427,6 +427,15 @@ export function BestRestaurants() {
                 </CardOverflow>
               </Card>
             </CssVarsProvider>
+          </Stack>
+          <Stack
+            flexDirection={"row"}
+            justifyContent={"flex-end"}
+            sx={{ width: "100%", mt: "16px" }}
+          >
+            <Button style={{ background: "#1976d2", color: "#ffffff" }}>
+              Barchasini Korish
+            </Button>
           </Stack>
         </Stack>
       </Container>
