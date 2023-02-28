@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
 const chosen_list = Array.from(Array(3).keys());
+const chosen_list_mini = Array.from(Array(30).keys());
 
 export function ChosenDish() {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -44,38 +45,21 @@ export function ChosenDish() {
 
           <Stack>
             <Swiper
-              className={"?"}
+              className={"dish_swiper_mini"}
               loop={true}
-              slidesPerView={2}
-              spaceBetween={25}
+              spaceBetween={30}
+              style={{ marginTop: "20px" }}
+              navigation={false}
+              modules={[FreeMode, Navigation, Thumbs]}
+              slidesPerView={3.5}
             >
-              {chosen_list.map((ele, index) => {
+              {chosen_list_mini.map((ele, index) => {
                 return (
                   <SwiperSlide key={`${index}`}>
                     <img
                       style={{
-                        width: "150px",
-                        height: "100px",
-                        borderRadius: "15px",
-                      }}
-                      src="/others/kok.jpeg"
-                    />
-
-                    <img
-                      style={{
-                        width: "150px",
-                        height: "100px",
-                        borderRadius: "15px",
-                      }}
-                      src="/others/lol.jpeg"
-                    />
-
-                    <img
-                      style={{
-                        width: "150px",
-
-                        marginTop: "20px",
-                        height: "100px",
+                        width: "100%",
+                        height: "100%",
                         borderRadius: "18px",
                       }}
                       src="/others/kok.jpeg"
