@@ -446,7 +446,7 @@
 .restaurant_page .single_restaurant .dish_desc .dish_desc_text {
   margin-top: 15px;
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24x;
@@ -610,7 +610,7 @@
   color: #08090d;
 }
 .restaurant_page .single_restaurant .review_start {
-  margin-top: 5px;
+  margin-top: -5px;
   width: 149px;
   height: 24px;
 

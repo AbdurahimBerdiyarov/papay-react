@@ -222,7 +222,7 @@ export function OneRestaurant() {
                         className="like_view_btn"
                         style={{ right: "36px" }}
                       >
-                        <Badge badgeContent={1000} color="primary">
+                        <Badge badgeContent={77} color="primary">
                           <CheckBox
                             icon={
                               <RemoveRedEyeIcon style={{ color: "white" }} />

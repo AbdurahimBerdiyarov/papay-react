@@ -80,7 +80,7 @@ export function ChosenDish() {
             <Box className="rating_box">
               <Rating
                 name="half-rating"
-                defaultValue={4.5}
+                defaultValue={3.5}
                 precision={0.5}
               ></Rating>
 
@@ -93,6 +93,7 @@ export function ChosenDish() {
                   }}
                 >
                   <Checkbox
+                    {...label}
                     icon={<FavoriteBorder style={{ color: "red" }} />}
                     checkedIcon={<Favorite style={{ color: "red" }} />}
                     checked={false}
