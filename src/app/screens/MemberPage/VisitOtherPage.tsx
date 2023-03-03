@@ -20,6 +20,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import TViewer from "../../components/tuiEditor/TViewer";
 
 export function VisitOtherPage(props: any) {
   /** INITIALIZATIONS **/
@@ -39,7 +40,7 @@ export function VisitOtherPage(props: any) {
             <Stack className={"my_page_left"}>
               <Box display={"flex"} flexDirection={"column"}>
                 <TabPanel value={"1"}>
-                  <Box className={"menu_name"}>Mening Maqolalarim</Box>
+                  <Box className={"menu_name"}> Maqolalar</Box>
 
                   <Box className={"menu_content"}>
                     <MemberPosts />
@@ -66,6 +67,7 @@ export function VisitOtherPage(props: any) {
                   <Box className={"menu_name"}>Tanlangan Maqola</Box>
 
                   <Box className={"menu_content"}></Box>
+                  <TViewer text={`<h3>HELLO</h3>`} />
                 </TabPanel>
               </Box>
             </Stack>
@@ -127,7 +129,7 @@ export function VisitOtherPage(props: any) {
                         component={(e) => (
                           <Button
                             variant={"contained"}
-                            style={{ backgroundColor: "#70909b8" }}
+                            style={{ backgroundColor: "red" }}
                           >
                             Bekor Qilish
                           </Button>
