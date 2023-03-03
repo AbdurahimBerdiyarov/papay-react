@@ -1,0 +1,451 @@
+.my_page {
+  width: 100;
+  height: auto;
+  display: flex;
+  background: #0b0e11;
+}
+
+.my_page .my_page_frame {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+}
+
+.my_page_frame .my_page_left {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(0, 255, 157); */
+}
+
+.my_page_left .menu_name {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  /* background: #5c205c; */
+  border-bottom: 1px solid rgb(230, 225, 225);
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.my_page_left .menu_content {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(206, 209, 206); */
+}
+
+.my_page .menu_content .write_content {
+  /* border: 1px solid rgb(221, 255, 0); */
+}
+
+.menu_content .bottom_box {
+  /* border: 1px solid #5c205c; */
+}
+
+.my_page_frame .my_page_right {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page .order_info_box {
+  position: relative;
+  width: 372.58px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_page .order_info_box .settings_btn {
+  position: absolute;
+  top: 20px;
+  left: 299px;
+  cursor: pointer;
+}
+
+.my_page .order_info_box .order_user_img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.my_page .order_info_box .order_user_avatar {
+  width: 117px;
+  height: 112px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 37px;
+}
+
+.my_page .order_info_box .order_user_icon_box {
+  position: absolute;
+  top: 81%;
+  /* bottom: 0; */
+  right: 0;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+
+  background: hsla(0, 0%, 82%, 0.33);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_page .order_info_box .order_user_name {
+  margin-top: 10px;
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  /* or 129% */
+
+  color: #08090d;
+}
+
+.my_page .order_info_box .order_user_prof {
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+
+  color: #a1a1a1;
+}
+
+.my_page .order_info_box .user_media_box {
+  margin-top: 10px;
+  color: #aaaaaa;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my_page .order_info_box .user_desc {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #a1a1a1;
+}
+
+.my_page .my_page_menu {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_page_menu .menu_box {
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 1px 4px 4px rgb(172 87 87 / 25%),
+    inset 0 4px 4px rgb(0 0 0 / 25%), inset 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  width: 372px;
+  gap: 15px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* post */
+
+.my_page .menu_content .post_content {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page .all_article_box {
+  margin-top: 20px;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #182226;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.my_page .all_article_box .all_article_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px 0px 0px 30px;
+  background-size: cover;
+}
+
+.my_page .all_article_box .all_article_container {
+  margin-left: 15px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page .all_article_author_user {
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.my_page .all_article_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #e3c08d;
+}
+
+.my_page .all_article_desc {
+  margin-top: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.my_page .article_share {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.my_page .article_share .article_share_main {
+  width: 330px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* Followers */
+
+.my_page .follow_box {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(38, 112, 129, 0.9) 0%,
+    rgba(21, 61, 70, 0.9) 100%
+  );
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15),
+    inset 3px 2px 9px rgba(255, 255, 255, 0.25);
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 46px 20px 45px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my_page .follow_box .username_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .name_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .following_already {
+  width: 160px;
+  height: 50px;
+  background: #68c5cb;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .follow_btn {
+  width: 160px;
+  height: 50px;
+  background: #30945e;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+  border: none;
+  /* outline: auto; */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.my_page .follow_box .follow_cancel_btn {
+  width: 185;
+  height: 57px;
+
+  background: #e81010;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+  border: none;
+  outline: none;
+}
+/* my_settings_page */
+.my_page .my_settings_page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.media_change_box {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #140342;
+}
+
+.up_del_box {
+  text-decoration: none;
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+.my_page .my_settings_page .member_media_frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid yellow;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+
+.my_page .my_settings_page .mb_image {
+  background: #f7f7f7;
+  margin-right: 20px;
+}
+
+.my_page .my_settings_page .input_frame {
+  margin-top: 25px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my_page .my_settings_page .short_input {
+  width: 49%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page .my_settings_page .long_input {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+}
+
+.my_page .my_settings_page .spec_label {
+  font-family: "Source Serif Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.my_page .my_settings_page .spec_textarea {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #4f547b;
+}
+
+.my_page .my_settings_page .spec_input {
+  height: 54px;
+}

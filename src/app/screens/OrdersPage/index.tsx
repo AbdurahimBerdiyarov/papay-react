@@ -50,11 +50,10 @@ export function OrdersPage() {
             </Box>
 
             <Stack className={"order_main_content"}>
-              <PausedOrders />
-
               <ProcessOrders />
 
               <FinishedOrders />
+              <PausedOrders />
             </Stack>
           </TabContext>
         </Stack>

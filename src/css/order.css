@@ -51,23 +51,15 @@
   border-radius: 37px;
 }
 .order_page .order_info_box .order_user_prof_img {
-  /* position: absolute; */
   width: 20px;
   height: 20px;
-  /* left: 1145px;
-  top: 653px; */
-
-  /* background-image: url(User_perspective_matte_s.png); */
   border-radius: 37px;
 }
 
 .order_page .order_info_box .order_user_img .order_user_avatar {
   width: 117px;
-
   height: 112px;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
   border-radius: 37px;
 }
 
@@ -167,10 +159,6 @@
   justify-content: space-between;
 }
 
-.order_page .order_info_box .css-wca78v-MuiButtonBase-root-MuiButton-root {
-  min-width: 160px;
-}
-
 .order_page .order_left .order_nav_frame {
   width: 100%;
   height: 60px;
@@ -180,22 +168,9 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.order_page .css-1gsv261 {
-  width: 75%;
-}
-
-.order_page .css-heg063-MuiTabs-flexContainer {
-  justify-content: space-between;
-}
-
 .order_page .order_main_content {
   width: 100%;
-
   height: auto;
-}
-
-.order_page .css-19kzrtu {
-  padding-top: 24px;
 }
 
 .order_page .order_main_content .order_main_box {
